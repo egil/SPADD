@@ -1,0 +1,8 @@
+﻿# Requirements #
+.net 4.5 or newer
+
+# Installation #
+1. Open command prompth as administrator
+2. Copy files to c:\Program Files(x86)\SPADD.DownloadService
+3. Go to: c:\Windows\Microsoft.NET\Framework\v4.0.30319
+4. Execute: InstallUtil.exe "c:\Program Files(x86)\SPADD.DownloadService\SPADD.DownloadService.exe"

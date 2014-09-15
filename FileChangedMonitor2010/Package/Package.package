@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="385035c1-d1c4-48e7-93ca-14335231faa1" solutionId="385035c1-d1c4-48e7-93ca-14335231faa1" resetWebServer="false" name="FileChangedMonitor2010" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="feaf018f-e3da-4ff6-9314-5460ced8fb2e" />
+  </features>
+</package>

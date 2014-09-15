@@ -1,0 +1,15 @@
+﻿Doc: http://technet.microsoft.com/en-us/library/cc262995(v=office.14).aspx
+Guide: http://community.bamboosolutions.com/blogs/sharepoint-2010/archive/2010/12/16/sharepoint-2010-cookbook-how-to-deploy-or-remove-a-solution-package-using-powershell-commands.aspx
+
+
+## Install ##
+Add-SPSolution -LiteralPath 
+Install-SPSolution -Identity filechangedmonitor2010.wsp -GacDeployment -CASPolicies
+Enable-SPFeature FileChangedMonitor2010_FileChangedMonitorFeature -Url http://sp
+
+3. Grant All users write access to list
+
+## Uninstall ##
+Disable-SPFeature FileChangedMonitor2010_FileChangedMonitorFeature -Url http://sp
+Uninstall-SPSolution -Identity FileChangedMonitor2010.wsp
+Remove-SPSolution -Identity FileChangedMonitor2010.wsp

@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SPADD.DownloadService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Site" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://sp</Value>
+    </Setting>
+    <Setting Name="List" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FileChangedLog</Value>
+    </Setting>
+    <Setting Name="ConcurrentDownloads" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="RefreshInterval" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">00:01:00</Value>
+    </Setting>
+    <Setting Name="Username" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">username</Value>
+    </Setting>
+    <Setting Name="Domain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">domain</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="DebugMode" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
